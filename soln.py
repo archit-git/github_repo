@@ -12,10 +12,7 @@ hostname1 = str(parsed_file["hostname"])
 username1 = str(parsed_file["username"])
 password1 = str(parsed_file["password"])
 
-#hostname = "testserver.afourtech.com"
-#username = "root"
-#password = "test123"
-# print(username, password)
+# deleted some stuff.
 
 #connect to remote linux m/c
 ssh_client = paramiko.SSHClient()
