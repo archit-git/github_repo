@@ -12,8 +12,11 @@ hostname1 = str(parsed_file["hostname"])
 username1 = str(parsed_file["username"])
 password1 = str(parsed_file["password"])
 
+<<<<<<< HEAD
 # deleted some stuff.
 
+=======
+>>>>>>> 04ba5879247f2041ab643839dc90dae34cde080d
 #connect to remote linux m/c
 ssh_client = paramiko.SSHClient()
 resp = ssh_client.connect(hostname=hostname1,port=21,username=username1,password=password1)
